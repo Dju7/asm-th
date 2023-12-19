@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'montserrat': ['Montserrat', 'sans-serif'],
-      'pacifico': ['Pacifico', 'cursive'],
+      'montserrat': ['"Montserrat"', '"sans-serif"'],
+      'pacifico': ['"Pacifico"', '"cursive"'],
     },
     extend: {
       backgroundImage: {

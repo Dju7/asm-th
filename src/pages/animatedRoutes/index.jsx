@@ -14,7 +14,7 @@ export default function AnimatedRoutes() {
     <AnimatePresence mode='wait'>
         <Routes key={location.pathname} location={location}>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About />}/>
             <Route path="/session" element={<Session />} />
             <Route path="/contact" element={<Contact />} />
         </Routes> 
