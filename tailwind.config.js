@@ -11,7 +11,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'home': "url('./assets/home.jpg')",
+        'home': "url('./assets/marche.jpg')",
       },
       backgroundSize: {
         maxH : '100%',
