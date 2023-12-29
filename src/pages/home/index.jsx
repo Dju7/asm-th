@@ -23,8 +23,8 @@ export default function Home() {
         
       </section>
       <section className=' h-[40%] w-[97%] flex flex-col items-center'>
-        <h1 className='text-[3rem] md:text-[4rem] lg:text-[9.3rem] font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-amber-600 inline p-0 m-0 leading-none tracking-wide'>THERAPIE HOLISTIQUE</h1>
-        <div className='flex justify-between w-[96%] h-10 text-2xl lg:text-5xl mt-2 font-bold text-sky-600'>
+        <h1 className='text-[3rem] md:text-[4rem] lg:text-[9.3rem] 3xl:text-[12.4rem] font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-amber-600 inline p-0 m-0 leading-none tracking-wide'>THERAPIE HOLISTIQUE</h1>
+        <div className='flex justify-between w-[96%] h-10 text-2xl lg:text-5xl 3xl:text-6xl mt-2 font-bold text-sky-600'>
           <Link to='/about'>A Propos</Link>
           <Link to='/session'>Séances</Link>
           <Link to="/contact">Contact</Link>  

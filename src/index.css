@@ -12,10 +12,8 @@
   mask-repeat: no-repeat;
 }
 
-.text-mask{
-  background: url(./assets/home.jpg) no-repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
+.mask-image {
+mask-image: linear-gradient(to left, white 15%, transparent 95%)
 }
 
 @layer base{

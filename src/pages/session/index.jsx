@@ -16,7 +16,7 @@ export default function Session() {
     <>
     <Header />
     <motion.main
-    className='w-full h-screen flex justify-center items-center'
+    className='w-full min-h-screen flex justify-center items-center'
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}
@@ -24,16 +24,16 @@ export default function Session() {
     >
     <section className='h-[92%] w-[97%]  mt-8 flex justify-center items-center'>
       <div className='h-full w-full flex flex-col md:flex-row rounded-2xl'>
-        <article className='w-full md:w-[60%] h-full flex flex-col justify-center items-center  '>
+        <article className='w-full md:w-[60%] h-full flex flex-col justify-center items-center '>
           <div className='h-[90%] w-[90%]'>
           <CarouselAbout onClick={handleClick} />
           </div>
         </article>
-        <article className=' w-[90%] md:w-[40%] h-full'>
+        <article className=' w-[90%] md:w-[40%] h-full rounded-tr-2xl rounded-br-2xl overflow-hidden'>
         <motion.img src={currentImage} 
         key={currentImage}
         alt="images de femmes" 
-        className=' h-full w-full object-cover' 
+        className=' h-full w-full object-cover mask-image' 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4 }}
