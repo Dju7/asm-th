@@ -29,11 +29,9 @@ export default {
     extend: {
       backgroundImage: {
         'home': "url('./assets/marche.jpg')",
+        'sunset': "url('./assets/health.jpg')"
       },
-      backgroundSize: {
-        maxH : '100%',
-        maxW : '100%',
-      },
+     
 
   },
   plugins: [],

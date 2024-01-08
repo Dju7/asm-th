@@ -27,8 +27,8 @@ export default function About() {
      <section className='h-[95%] w-[95%] flex flex-col gap-4 justify-center items-center '>
         <div className='min-h-[430px] 3xl:min-h-[640px] w-full mt-6 lg:mt-0 flex flex-col lg:flex-row'>
           <div className='h-full w-full lg:h-[340px] lg:w-[30%] flex flex-col justify-center items-start mt-14 3xl:mt-32 mx-2 lg:mx-16'>
-            <p className=' text-[3rem] md:text[4rem] lg:text-[5.5rem] 3xl:text-[8.5rem] bg-clip-text text-transparent bg-gradient-to-t from-sky-500 to-amber-600 font-bold leading-none'>QUI</p>
-            <p className='text-[3rem] md:text[4rem] lg:text-[5.5rem] 3xl:text-[8.5rem] bg-clip-text text-transparent bg-gradient-to-t from-sky-500 to-amber-600 font-bold leading-none'>SUIS-JE ?</p>
+            <p className=' text-[3rem] md:text[4rem] lg:text-[5.5rem] 3xl:text-[8.5rem] bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-amber-500 font-bold leading-none'>QUI</p>
+            <p className='text-[3rem] md:text[4rem] lg:text-[5.5rem] 3xl:text-[8.5rem] bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-amber-500 font-bold leading-none'>SUIS-JE ?</p>
           </div>
           <div className='h-[400px] 3xl:h-[590px] w-full lg:w-[60%] 3xl:w-[62%]  mt-1 3xl:mt-10 lg:mt-8 p-2 overflow-auto'>
           <p className='text-justify text-[1rem] 3xl:text-2xl text-sky-800 h-[320px] 3xl:h-[500px] mt-12'>Je m’appelle Asma, issue d’une famille Tunisienne au sein de laquelle était naturellement pratiquée une médecine traditionnelle et holistique. 

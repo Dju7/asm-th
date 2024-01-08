@@ -41,10 +41,10 @@ export default function Session() {
           key={currentImage}
           alt="images de femmes" 
           className='h-full w-full object-cover mask-image' 
-          initial={{ opacity: 0, x: '100%' }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: '-100%' }}
-                    transition={{ duration: 0.8 }}
+          initial={{ opacity: 0 }}
+                    animate={{ opacity: 1}}
+                    exit={{ opacity: 0,}}
+                    transition={{ duration: 0.8, type:"spring", stiffness:70, damping:10 }}
           />
         </article>
       </div>

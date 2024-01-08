@@ -31,7 +31,7 @@ const CarouselAbout = ({onClick}) => {
         >
         <article className="w-full h-full flex justify-center p-2 mb-4">
           <div className='flex flex-col items-start w-[98%]'>
-          <h2 className='text-[2rem] md:text-[3rem] lg:text-[3rem] 3xl:text-[5rem] font-bold bg-clip-text text-transparent bg-gradient-to-t from-sky-500 to-amber-600 mb-10 mt-2 lg:mt-16'>SOIN HOLISTIQUE</h2>
+          <h2 className='text-[2rem] md:text-[3rem] lg:text-[3rem] 3xl:text-[5rem] font-bold bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-amber-500 mb-10 mt-2 lg:mt-16'>SOIN HOLISTIQUE</h2>
           <p className='min-h-[450px] text-sky-800 text-lg 3xl:text-2xl'>Pourquoi ce terme <span className='font-bold'>holistique</span>?<br/> Parce qu’il signifie « tout entier », et que je suis convaincue que le bien être ou la bonne santé dépend d’un équilibre globale. 
             Trouver la cause des causes quelque soit le symptôme oriente ma démarche. Cela implique de suivre le chemin de certaines ramifications ou complexités, à travers le corps et l’esprit, 
             avant de pouvoir toucher la racine.<br/><br/> Ce qui est également holistique c’est la <span className='font-bold'>pratique multidisciplinaire</span> nécessaire pour accompagner une personne vers son équilibre. 
@@ -43,7 +43,7 @@ const CarouselAbout = ({onClick}) => {
         </article>
         <article className="w-full h-full flex justify-center p-2">
         <div className='flex flex-col items-start w-[98%]'>
-        <h2 className='text-[2rem] md:text-[3rem] lg:text-[3rem] 3xl:text-[5rem] font-bold bg-clip-text text-transparent bg-gradient-to-t from-sky-500 to-amber-600 mb-10 mt-2 lg:mt-16'>MA METHODE</h2>
+        <h2 className='text-[2rem] md:text-[3rem] lg:text-[3rem] 3xl:text-[5rem] font-bold bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-amber-500 mb-10 mt-2 lg:mt-16'>MA METHODE</h2>
           <p className='min-h-[450px] text-sky-800 text-lg 3xl:text-2xl '>En plus du magnétisme transmis de main à main par ma grand-mère, je suis formée au touch for health (kinésiologie) et à la naturopathie. <br/>
             Cela fait plus de 30 ans que je me passionne pour les domaines de la médecine au sens large du terme, de la psychologie, de la communication, 
             de l’astrologie et des techniques de thérapies comme l’hypnose ou la PNL. Mon approche se nourrit de tout cela.<br/><br/>
@@ -58,7 +58,7 @@ const CarouselAbout = ({onClick}) => {
         </article>
         <article className="w-full h-full flex justify-center p-2">
           <div className='flex flex-col items-start w-[98%]'>
-          <h2 className='text-[2rem] md:text-[3rem] lg:text-[3rem] 3xl:text-[5rem] font-bold bg-clip-text text-transparent bg-gradient-to-t from-sky-500 to-amber-600 mb-10 mt-2 lg:mt-16'>DEROULEMENT</h2>
+          <h2 className='text-[2rem] md:text-[3rem] lg:text-[3rem] 3xl:text-[5rem] font-bold bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-amber-500 mb-10 mt-2 lg:mt-16'>DEROULEMENT</h2>
           <p className='min-h-[450px] text-sky-800  text-lg 3xl:text-2xl'>
             Chacun d’entre nous étant unique, j’estime qu’il ne peut exister une seule méthode vraie pour tout le monde et pour toujours. 
             Toutefois, la séance est estimé à 2h. Je consacre toujours au moins 20 minutes de conversation afin de cerner la problématique, faire connaissance, 
