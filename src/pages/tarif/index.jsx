@@ -30,9 +30,9 @@ export default function Tarif() {
         </article>
         <article className='h-[50%] h-full w-[95%] lg:w-[70%] flex flex-col '>
           <div className='min-h-[250px] lg:min-h-[350px] 3xl:min-h-[450px] w-full flex flex-col items-start justify-center md:items-center relative'>
-          <img src={oiseau} className='absolute z-0 h-[80%] w-[90%]  opacity-80'></img>
+          <img src={oiseau} className='absolute z-0 h-[70%] w-[90%] opacity-50'></img>
            <h2 className=' z-10 w-full text-[2rem] sm:text-[3rem] lg:text-[4rem] text-center bg-clip-text text-transparent bg-gradient-to-t from-sky-500 to-amber-600'>ACCOMPAGNEMENT</h2>
-           <h3 className='z-10 text-xl'>Pour toute situation nécéssitant une relation de suivie</h3>
+           <h3 className='z-10 text-lg md:text-xl text-sky-500'>Pour toute situation nécéssitant une relation de suivie</h3>
           </div>
           <div className='h-[50%] w-full flex flex-col lg:flex-row gap-4 3xl:gap-8 items-center justify-center'>
             <Card img={doula}>

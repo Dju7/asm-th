@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
+import { MdArrowBackIos } from "react-icons/md";
+import { MdArrowForwardIos } from "react-icons/md";
 
 const CarouselAbout = ({onClick}) => {
   const [index, setIndex] = useState(0);
@@ -75,8 +77,8 @@ const CarouselAbout = ({onClick}) => {
         
       </motion.div>
       <div  className='flex justify-center gap-6 h-16 lg:h-20 text-sky-800 3xl:text-2xl' onClick={onClick}>
-      <button onClick={handlePrevious}>Precédent</button>
-      <button onClick={handleNext}>Suivant</button>
+      <button onClick={handlePrevious} className='flex items-center'><MdArrowBackIos className='text-xl'/>  Precédent</button>
+      <button onClick={handleNext} className='flex items-center gap-2'>Suivant  <MdArrowForwardIos className='text-xl'/></button>
       </div>
     </div>
   );

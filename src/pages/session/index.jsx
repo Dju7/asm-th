@@ -44,7 +44,7 @@ export default function Session() {
           initial={{ opacity: 0 }}
                     animate={{ opacity: 1}}
                     exit={{ opacity: 0,}}
-                    transition={{ duration: 0.8, type:"spring", stiffness:70, damping:10 }}
+                    transition={{ duration: 0.8, type:"spring"}}
           />
         </article>
       </div>
