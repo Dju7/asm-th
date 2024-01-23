@@ -8,11 +8,22 @@
 .mask-image {
 mask-image: linear-gradient(to left, white 35%, transparent)
 }
+
+.mask{
+  mask-image: url(./assets/mask.png);
+  mask-repeat: no-repeat;
+  mask-size: cover
+}
+
 span {
   font-weight: 400;
 }
 .home {
   font-family: 'Dancing Script', cursive;
+}
+
+.txtShadow {
+  text-shadow: black 0.1em 0.1em 0.2em
 }
 
 

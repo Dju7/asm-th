@@ -28,7 +28,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'home': "url('./assets/marche.jpg')",
+        'home': "url('./assets/marche.webp')",
       },
      
 

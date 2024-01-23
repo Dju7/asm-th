@@ -2,9 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Header from '../../components/header/header'
 import TarifMenu from '../../components/tarifMenu/tarif'
-import doula from '../../assets/doula.jpg'
-import thana from '../../assets/thana.jpg'
-import health from '../../assets/health.jpg'
+import doula from '../../assets/doula.webp'
+import thana from '../../assets/thana.webp'
+import health from '../../assets/health.webp'
 import Card from '../../components/card/card'
 import oiseau from '../../assets/envoloiso.png'
 
@@ -30,11 +30,11 @@ export default function Tarif() {
         </article>
         <article className='h-[50%] h-full w-[95%] lg:w-[70%] flex flex-col '>
           <div className='min-h-[250px] lg:min-h-[350px] 3xl:min-h-[450px] w-full flex flex-col items-start justify-center md:items-center relative'>
-          <img src={oiseau} className='absolute z-0 h-[70%] w-[90%] opacity-50'></img>
+          <img src={oiseau} className='absolute z-0 h-[70%] w-[90%] opacity-60'></img>
            <h2 className=' z-10 w-full text-[2rem] sm:text-[3rem] lg:text-[4rem] text-center bg-clip-text text-transparent bg-gradient-to-t from-sky-500 to-amber-600'>ACCOMPAGNEMENT</h2>
            <h3 className='z-10 text-lg md:text-xl text-sky-500'>Pour toute situation nécéssitant une relation de suivie</h3>
           </div>
-          <div className='h-[50%] w-full flex flex-col lg:flex-row gap-4 3xl:gap-8 items-center justify-center'>
+          <div className='h-[50%] w-full flex flex-col lg:flex-row gap-4 3xl:gap-8 items-center justify-center mb-6 lg:mb-0'>
             <Card img={doula}>
               <div className='flex justify-between mt-8 text-xl 3xl:text-2xl mb-6'>
                 <p className='p-1'>Doula - 1h</p>

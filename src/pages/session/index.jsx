@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import aboutPic2 from '../../assets/about.jpg'
-import aboutPic3 from '../../assets/caval.jpg'
-import aboutPic from '../../assets/visage.jpg'
+import aboutPic2 from '../../assets/about.webp'
+import aboutPic3 from '../../assets/caval.webp'
+import aboutPic from '../../assets/visage.webp'
 import Header from '../../components/header/header'
 import CarouselAbout from '../../components/carousel/carousel'
 
@@ -40,11 +40,11 @@ export default function Session() {
           <motion.img src={currentImage} 
           key={currentImage}
           alt="images de femmes" 
-          className='h-full w-full object-cover mask-image' 
-          initial={{ opacity: 0 }}
-                    animate={{ opacity: 1}}
-                    exit={{ opacity: 0,}}
-                    transition={{ duration: 0.8, type:"spring"}}
+          className='h-full w-full object-cover mask' 
+          initial={{ opacity: 0, scaleX:0, transformOrigin: "100% 50%" }}
+          animate={{ opacity: 1, scaleX: 1, transformOrigin: "100% 50%"}}
+          exit={{ opacity: 0, scaleX:0, transformOrigin: "100% 50%"}}
+          transition={{ duration: 0.5}}
           />
         </article>
       </div>

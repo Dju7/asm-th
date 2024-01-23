@@ -1,6 +1,6 @@
 import React from 'react'
-import bio from '../../assets/bottom.jpg'
-import portrait from '../../assets/portrait2.jpg'
+import bio from '../../assets/bottom.webp'
+import portrait from '../../assets/portrait2.webp'
 import { motion } from 'framer-motion'
 import Header from '../../components/header/header'
 import { FaInstagramSquare, FaFacebook, FaYoutube } from "react-icons/fa";
@@ -38,18 +38,18 @@ export default function About() {
           pour toujours. Je suis le fruit de ces polarités, le chaud et le froid, le feu et la glace. <br/>
           J’offre aujourd’hui mes services car je sais combien je peux soulager et aider dans bien des domaines que je détaillerai plus loin.<br/><br/>
           Côté CV, j’ai eu plusieurs casquettes pour lesquelles je suis diplômée : j’ai soigné en blouse blanche, j’ai peint des décors, j’ai enseigné aussi, élevé deux enfants et obtenu d’autres certifications. 
-          Mais quelque fut mon métier en fond de trame j’étais toujours en train d’exercer ma fonction animique qui est: prendre soin. Ce n’est pas un savoir, c’est une disposition naturelle.
+          Mais quel que fut mon métier en fond de trame j’étais toujours en train d’exercer ma fonction animique qui est: prendre soin. Ce n’est pas un savoir, c’est une disposition naturelle.
            </p>
           </div>
         </div>
-        <div className='w-full min-h-[430px] 3xl:min-h-[600px] flex flex-col lg:flex-row justify-between relative'>
-          <img src={bio}  alt="image de coucher de soleil" className='absolute z-0 bottom-0 left-0 h-[80%] w-full object-cover boject-center rounded-bl-2xl rounded-br-2xl '/>
+        <div className='w-full min-h-[430px] 3xl:min-h-[650px] flex flex-col lg:flex-row justify-between relative'>
+          <img src={bio}  alt="image de coucher de soleil" className='absolute z-0 bottom-0 left-0 h-[80%] w-full object-cover object-center rounded-bl-2xl rounded-br-2xl '/>
           <div className="z-10 h-[400px] 3xl:h-[560px] w-[320px] md:w-[380px] 3xl:w-[540px] mb-4 ml-6 md:ml-14">
           <img src={portrait}  alt="image de portrait" className=' h-full w-full w-full object-contain'/>
           </div>
           <div className=" z-10 w-[95%] lg:w-[64%] min-h-[200px] text-justify text-white font-bold">
-            <div className='ml-8 w-[92%] flex flex-col lg:flex-row justify-end md:justify-between items-center h-24 mt-0  border-t border-sky-900 3xl:pt-8'>
-            <div className='text-3xl md:text-4xl 3xl:text-7xl text-black/80  w-full lg:w-[30%]  flex justify-end lg:justify-start items-center gap-10 3xl:gap-20'>
+            <div className='ml-8 w-[92%] flex flex-col lg:flex-row justify-end md:justify-between items-center h-24 mt-0 border-t border-sky-900 3xl:pt-8'>
+            <div className='text-3xl md:text-4xl 3xl:text-7xl text-black/80 w-full lg:w-[30%]  flex justify-end lg:justify-start items-center gap-10 3xl:gap-20'>
               <a href='https://www.facebook.com/profile.php?id=100078419194025' target="_blank"><FaFacebook className='hover:text-amber-500'/></a>
               <a href='https://www.instagram.com/asmatherapie/' target="_blank"><FaInstagramSquare className='hover:text-amber-500' /></a>
               <a href='https://www.youtube.com/@lasmala2145' target="_blank"><FaYoutube className='hover:text-amber-500' /></a>
@@ -57,10 +57,10 @@ export default function About() {
             </div>
             <h3 className='w-full lg:w-[60%] text-[2rem] md:text-[2.5rem] lg:text-[3rem] 3xl:text-[6rem] text-right bg-clip-text text-transparent bg-gradient-to-b from-black/90 to-amber-600 '>ME CONTACTER</h3>
             </div>
-           <div className=' rounded-xl flex flex-col items-end w-[95%] mt-4 lg:mt-8 3xl:mt-24 text-2xl 3xl:text-6xl ml-4 lg:ml-0'>
+           <div className=' rounded-xl flex flex-col items-end w-[95%] mt-4 lg:mt-8 3xl:mt-24 text-2xl 3xl:text-5xl ml-4 lg:ml-0'>
            <motion.a 
              href='mailto:asma.bbc.pro@gmail.com' 
-             className='bg-black/60 hover:bg-amber-500 w-[97%] lg:w-[47%] 3xl:w-[52%] lg:p-3 rounded-xl mb-4 mr-2'
+             className='bg-black/60 hover:bg-amber-500 w-[97%] lg:w-[47%] lg:p-3 rounded-xl mb-4 mr-2'
              initial={{opacity:0, y: 200}}
              animate={{opacity: 1, y: 0}}
              transition={{duration: 0.5}}
