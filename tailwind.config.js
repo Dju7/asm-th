@@ -22,10 +22,6 @@ export default {
       // => @media (min-width: 1536px) { 
       '3xl': '2400px',
     },
-    fontFamily: {
-      'montserrat': ['"Montserrat"', '"sans-serif"'],
-      'pacifico': ['"Pacifico"', '"cursive"'],
-    },
     extend: {
       backgroundImage: {
         'home': "url('./assets/marche.webp')",

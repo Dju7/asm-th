@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.webp'
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
         <a href='mailto:asma.bbc.pro@gmail.com'><p className='underline'>asma.bbc.pro@gmail.com</p></a>
         </div>
         <div className=' h-full w-full md:w-[40%] flex flex-col items-center gap-2 mb-6 md:mb-0'>
-           <img src={logo} className=' h-24 opacity-70'/>
+           <img src={logo} className=' h-24 w-24 opacity-70' alt='etoile orientale'/>
            <p className='text-[10px] text-amber-100 opacity-90 leading-none'>©2022-Asma Therapie</p>
         </div>
     </div>
