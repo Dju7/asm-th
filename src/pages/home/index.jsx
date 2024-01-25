@@ -128,7 +128,7 @@ export default function Home() {
         <div className="min-h-full w-[90%] md:w-[50%]">
           <motion.img
             src={visage}
-            className="object-cover mb-6 h-[80%] w-[80%] "
+            className="object-cover mb-6 h-[80%] w-[90%] ml-4 "
             alt='visage peint'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

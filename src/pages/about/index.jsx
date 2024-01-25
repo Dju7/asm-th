@@ -19,7 +19,7 @@ export default function About() {
         transition={{ duration: 0.5 }}
       >
         <section className="h-[95%] w-[95%] flex flex-col justify-center items-center ">
-          <div className="min-h-[430px] 3xl:min-h-[640px] w-full mt-6 lg:mt-0 flex flex-col lg:flex-row">
+          <div className="min-h-[430px] 3xl:min-h-[640px] w-full mt-6 md:mt-0 flex flex-col lg:flex-row">
             <div className="h-full w-full lg:h-[340px] lg:w-[30%] flex flex-col justify-center items-start mt-14 3xl:mt-32 mx-2 lg:mx-16">
               <p className=" text-[3rem] md:text[4rem] lg:text-[5.5rem] 3xl:text-[8.5rem] bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-amber-500 font-bold leading-none">
                 QUI
@@ -95,7 +95,7 @@ export default function About() {
                     <FaYoutube className="hover:text-amber-500" />
                   </a>
                 </div>
-                <h3 className="w-full lg:w-[60%] text-[2rem] md:text-[2.5rem] lg:text-[3rem] 3xl:text-[6rem] text-right bg-clip-text text-transparent bg-gradient-to-b from-black/90 to-amber-600 ">
+                <h3 className="w-full lg:w-[60%] text-[2rem] md:text-[2.5rem] xl:text-[3rem] 3xl:text-[6rem] text-right bg-clip-text text-transparent bg-gradient-to-b from-black/90 to-amber-600 ">
                   ME CONTACTER
                 </h3>
               </div>
@@ -119,7 +119,7 @@ export default function About() {
                   transition={{ delay: 0.5, duration: 0.5 }}
                 >
                   <BsFillTelephoneFill />
-                  06 45 22 42 70
+                  06 73 90 33 54
                 </motion.p>
               </div>
             </div>

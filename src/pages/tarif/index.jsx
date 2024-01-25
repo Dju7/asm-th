@@ -22,7 +22,7 @@ export default function Tarif() {
         <section className="min-h-[800px] 3xl:min-h-[1200px] w-full lg:h-[90%] md:w-[92%]  mt-8 flex flex-col lg:flex-row gap-8 justify-center items-center">
           <article className="h-[50%] md:h-full w-[95%] lg:w-[30%] flex flex-col">
             <div className="min-h-[250px] lg:min-h-[350px] 3xl:min-h-[450px] w-full  flex justify-center items-center relative">
-              <h2 className=" z-10 w-[70%] text-[2.7rem] md:text-[4rem] text-center bg-clip-text text-transparent bg-gradient-to-t from-sky-500 to-amber-600">
+              <h2 className=" z-10 w-[70%] text-[2.7rem] md:text-[3rem] xl:text-[4rem] text-center bg-clip-text text-transparent bg-gradient-to-t from-sky-500 to-amber-600">
                 SEANCE A L'UNITE
               </h2>
             </div>
